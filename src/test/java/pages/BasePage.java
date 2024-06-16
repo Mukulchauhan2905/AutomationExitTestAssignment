@@ -27,7 +27,8 @@ import fileReaderUtils.FileReader;
 import listenerUtils.Listeners;
 import webdriverUtils.WebDriverManager;
 
-@Listeners(Listeners.class)
+//@Listeners(Listeners.class)
+@org.testng.annotations.Listeners(Listeners.class)
 public class BasePage {
 	
 	public static WebDriver driver;
