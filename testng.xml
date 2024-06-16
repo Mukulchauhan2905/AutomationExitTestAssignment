@@ -8,8 +8,26 @@
   
     <classes>
     
+      <class name="testcases.FilterByBrandTest"/>
+      <class name="testcases.SortLowToHighTest"/>
+      <class name="testcases.SelectCategoryTest"/>
+      <class name="testcases.InvalidSearchTest"/>
+      <class name="testcases.GiftCardPageTest"/>
+      <class name="testcases.SearchForProductTest"/>
+      <class name="testcases.ClearFilterTest"/>
+      <class name="testcases.HomePageLogoFailTest"/>
+      <class name="testcases.RemoveFromCartTest"/>
+      <class name="testcases.CheckMoreTest"/>
+      <class name="testcases.HomePageLogoTest"/>
+      <class name="testcases.LoginTest"/>
+      <class name="testcases.FilterByAmountTest"/>
+      <class name="testcases.ValidateSpecificationTest"/>
+      <class name="testcases.UpdateCartCountTest"/>
       <class name="testcases.ValidateRatingsTest"/>
       <class name="testcases.AddToCartTest"/>
+      <class name="testcases.CheckPaginationTest"/>
+      <class name="testcases.ValidateProductTest"/>
+      <class name="testcases.PlaceOrderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
