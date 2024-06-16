@@ -1390,3 +1390,129 @@
 15-06-2024 19:22:22.075 [main] INFO  pages.BasePage - Opening link in new Tab
 15-06-2024 19:22:24.915 [main] INFO  pages.BasePage - Clicked ATC on new TAB
 15-06-2024 19:22:26.571 [main] INFO  listenerUtils.TestStatusListener - placeOrder Test Case Passed
+16-06-2024 23:32:19.733 [main] INFO  pages.BasePage - ############################ ----NEW LOG BEGINS HERE---- ############################
+16-06-2024 23:32:20.654 [main] INFO  pages.BasePage - ********************TESTING FOR addToCartTest *********************
+16-06-2024 23:32:24.221 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:32:28.931 [main] INFO  pages.BasePage - Searching for IPhone
+16-06-2024 23:32:31.414 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:32:31.560 [main] INFO  pages.SearchPage - Showing 1 – 24 of 492 results for "IPhone"
+16-06-2024 23:32:32.429 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:32:32.429 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:32:35.065 [main] INFO  pages.BasePage - Clicked ATC on new TAB
+16-06-2024 23:32:35.088 [main] INFO  listenerUtils.Listeners - addToCartTest Test Case Passed
+16-06-2024 23:32:35.617 [main] INFO  pages.BasePage - ********************TESTING FOR checkMore *********************
+16-06-2024 23:32:37.326 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:32:41.287 [main] INFO  listenerUtils.Listeners - checkMore Test Case Passed
+16-06-2024 23:32:41.663 [main] INFO  pages.BasePage - ********************TESTING FOR checkPagination *********************
+16-06-2024 23:32:43.158 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:32:45.517 [main] INFO  pages.BasePage - Searching for Phone
+16-06-2024 23:32:48.935 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:32:49.272 [main] INFO  pages.SearchPage - Showing 1 – 24 of 10,010 results for "Phone"
+16-06-2024 23:32:50.484 [main] INFO  pages.SearchPage - Showing 25 – 48 of 10,010 results for "Phone"
+16-06-2024 23:32:50.484 [main] INFO  listenerUtils.Listeners - checkPagination Test Case Passed
+16-06-2024 23:32:50.908 [main] INFO  pages.BasePage - ********************TESTING FOR clearFilterTest *********************
+16-06-2024 23:32:52.432 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:32:53.210 [main] INFO  pages.BasePage - Searching for Phone
+16-06-2024 23:32:55.067 [main] ERROR listenerUtils.Listeners - clearFilterTest Test Case Failed
+16-06-2024 23:32:55.938 [main] INFO  pages.BasePage - ********************TESTING FOR filterByAmount *********************
+16-06-2024 23:32:57.474 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:32:59.687 [main] INFO  pages.BasePage - Searching for Phone
+16-06-2024 23:33:03.056 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:33:03.361 [main] INFO  pages.SearchPage - Showing 1 – 24 of 10,010 results for "Phone"
+16-06-2024 23:33:03.362 [main] INFO  pages.BasePage - changing min amt = 30000
+16-06-2024 23:33:04.493 [main] INFO  listenerUtils.Listeners - filterByAmount Test Case Passed
+16-06-2024 23:33:04.757 [main] INFO  pages.BasePage - ********************TESTING FOR filterByBrand *********************
+16-06-2024 23:33:06.383 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:08.493 [main] INFO  pages.BasePage - Searching for Phone
+16-06-2024 23:33:11.956 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:33:12.267 [main] INFO  pages.SearchPage - Showing 1 – 24 of 10,010 results for "Phone"
+16-06-2024 23:33:12.268 [main] INFO  pages.BasePage - Selecting Filter By Brand = OPPO
+16-06-2024 23:33:13.450 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:33:13.450 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:33:15.243 [main] INFO  listenerUtils.Listeners - filterByBrand Test Case Passed
+16-06-2024 23:33:15.688 [main] INFO  pages.BasePage - ********************TESTING FOR giftCardPage *********************
+16-06-2024 23:33:17.417 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:23.130 [main] INFO  pages.HomePage - Online Shopping India | Buy Mobiles, Electronics, Appliances, Clothing and More Online at Flipkart.com
+16-06-2024 23:33:25.690 [main] INFO  listenerUtils.Listeners - giftCardPage Test Case Passed
+16-06-2024 23:33:26.154 [main] INFO  pages.BasePage - ********************TESTING FOR homePageLogoFail *********************
+16-06-2024 23:33:27.757 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:30.609 [main] ERROR listenerUtils.Listeners - homePageLogoFail Test Case Failed
+16-06-2024 23:33:31.489 [main] INFO  pages.BasePage - ********************TESTING FOR homePageLogo *********************
+16-06-2024 23:33:33.041 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:35.339 [main] INFO  listenerUtils.Listeners - homePageLogo Test Case Passed
+16-06-2024 23:33:35.670 [main] INFO  pages.BasePage - ********************TESTING FOR invalidSearch *********************
+16-06-2024 23:33:37.177 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:39.740 [main] INFO  pages.BasePage - Searching for invalid Text = sdfgaefgdhsfg
+16-06-2024 23:33:41.927 [main] INFO  listenerUtils.Listeners - invalidSearch Test Case Passed
+16-06-2024 23:33:42.169 [main] INFO  pages.BasePage - ********************TESTING FOR login *********************
+16-06-2024 23:33:43.598 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:48.476 [main] INFO  listenerUtils.Listeners - login Test Case Passed
+16-06-2024 23:33:49.132 [main] INFO  pages.BasePage - ********************TESTING FOR placeOrder *********************
+16-06-2024 23:33:50.839 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:33:53.488 [main] INFO  pages.BasePage - Searching for IPhone
+16-06-2024 23:33:55.744 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:33:55.857 [main] INFO  pages.SearchPage - Showing 1 – 24 of 492 results for "IPhone"
+16-06-2024 23:33:56.157 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:33:56.157 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:33:58.965 [main] INFO  pages.BasePage - Clicked ATC on new TAB
+16-06-2024 23:34:00.995 [main] INFO  listenerUtils.Listeners - placeOrder Test Case Passed
+16-06-2024 23:34:01.383 [main] INFO  pages.BasePage - ********************TESTING FOR removeFromCartTest *********************
+16-06-2024 23:34:02.917 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:05.397 [main] INFO  pages.BasePage - Searching for IPhone
+16-06-2024 23:34:07.653 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:34:07.785 [main] INFO  pages.SearchPage - Showing 1 – 24 of 492 results for "IPhone"
+16-06-2024 23:34:08.138 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:34:08.138 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:34:10.831 [main] INFO  pages.BasePage - Clicked ATC on new TAB
+16-06-2024 23:34:10.831 [main] INFO  pages.CartPage - removing from cart
+16-06-2024 23:34:10.859 [main] INFO  pages.CartPage - true
+16-06-2024 23:34:10.890 [main] INFO  pages.CartPage - Clicked on Remove
+16-06-2024 23:34:11.214 [main] INFO  pages.CartPage - Waiting complete on Remove confirmation
+16-06-2024 23:34:11.348 [main] INFO  pages.CartPage - Clicked on  Remove confirmation
+16-06-2024 23:34:11.570 [main] INFO  listenerUtils.Listeners - removeFromCartTest Test Case Passed
+16-06-2024 23:34:12.040 [main] INFO  pages.BasePage - ********************TESTING FOR searchForProduct *********************
+16-06-2024 23:34:13.447 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:15.996 [main] INFO  pages.BasePage - Searching for Phone
+16-06-2024 23:34:18.465 [main] INFO  pages.SearchPage - Showing 1 – 24 of 10,010 results for "Phone"
+16-06-2024 23:34:18.465 [main] INFO  listenerUtils.Listeners - searchForProduct Test Case Passed
+16-06-2024 23:34:18.784 [main] INFO  pages.BasePage - ********************TESTING FOR selectCategory *********************
+16-06-2024 23:34:20.413 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:24.655 [main] INFO  listenerUtils.Listeners - selectCategory Test Case Passed
+16-06-2024 23:34:25.018 [main] INFO  pages.BasePage - ********************TESTING FOR sortLowToHigh *********************
+16-06-2024 23:34:26.530 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:28.818 [main] INFO  pages.BasePage - Searching for IPhone
+16-06-2024 23:34:31.178 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:34:31.487 [main] INFO  pages.SearchPage - Waiting for Page to load and show sorted
+16-06-2024 23:34:32.219 [main] INFO  pages.BasePage - Clicked on sort and price = 67999
+16-06-2024 23:34:32.325 [main] INFO  listenerUtils.Listeners - sortLowToHigh Test Case Passed
+16-06-2024 23:34:32.678 [main] INFO  pages.BasePage - ********************TESTING FOR updateCartCount *********************
+16-06-2024 23:34:34.194 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:36.782 [main] INFO  pages.BasePage - Searching for Phone
+16-06-2024 23:34:39.367 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:34:39.696 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:34:42.615 [main] INFO  pages.BasePage - Clicked ATC on new TAB
+16-06-2024 23:34:42.673 [main] INFO  pages.CartPage - updated counter
+16-06-2024 23:34:43.352 [main] INFO  listenerUtils.Listeners - updateCartCount Test Case Passed
+16-06-2024 23:34:43.590 [main] INFO  pages.BasePage - ********************TESTING FOR validateProduct *********************
+16-06-2024 23:34:45.235 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:47.302 [main] INFO  pages.BasePage - Searching for Macbook
+16-06-2024 23:34:49.909 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:34:50.231 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:34:50.231 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:34:52.352 [main] INFO  listenerUtils.Listeners - validateProduct Test Case Passed
+16-06-2024 23:34:52.598 [main] INFO  pages.BasePage - ********************TESTING FOR validateRatings *********************
+16-06-2024 23:34:54.132 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:34:58.030 [main] INFO  pages.BasePage - Searching for LG tv
+16-06-2024 23:35:00.597 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:35:00.943 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:35:00.943 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:35:07.540 [main] ERROR listenerUtils.Listeners - validateRatings Test Case Failed
+16-06-2024 23:35:08.054 [main] INFO  pages.BasePage - ********************TESTING FOR validateSpecification *********************
+16-06-2024 23:35:09.527 [main] INFO  pages.BasePage - Driver created according to the properties file.
+16-06-2024 23:35:11.895 [main] INFO  pages.BasePage - Searching for LG tv
+16-06-2024 23:35:14.617 [main] INFO  pages.BasePage - On Search Result Page
+16-06-2024 23:35:15.015 [main] INFO  pages.BasePage - driver control on new tab
+16-06-2024 23:35:15.016 [main] INFO  pages.BasePage - Opening link in new Tab
+16-06-2024 23:35:16.939 [main] INFO  pages.BasePage - Product Title = lg 80 cm (32 inch) hd ready led smart webos tv  (32lm563bptc)
+16-06-2024 23:35:16.985 [main] INFO  pages.BasePage - Model Name = 32lm563bptc
+16-06-2024 23:35:16.985 [main] INFO  listenerUtils.Listeners - validateSpecification Test Case Passed
