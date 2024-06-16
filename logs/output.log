@@ -1785,3 +1785,10 @@
 16-06-2024 23:55:49.244 [main] INFO  pages.BasePage - Opening link in new Tab
 16-06-2024 23:55:52.619 [main] INFO  pages.BasePage - Clicked ATC on new TAB
 16-06-2024 23:55:54.834 [main] INFO  listenerUtils.Listeners - placeOrder Test Case Passed
+17-06-2024 00:29:11.542 [main] INFO  pages.BasePage - ############################ ----NEW LOG BEGINS HERE---- ############################
+17-06-2024 00:29:13.247 [main] INFO  pages.BasePage - ********************TESTING FOR homePageLogo *********************
+17-06-2024 00:29:17.140 [main] INFO  pages.BasePage - Driver created according to the properties file.
+17-06-2024 00:29:21.274 [main] INFO  listenerUtils.Listeners - homePageLogo Test Case Passed
+17-06-2024 00:29:22.622 [main] INFO  pages.BasePage - ********************TESTING FOR login *********************
+17-06-2024 00:29:25.425 [main] INFO  pages.BasePage - Driver created according to the properties file.
+17-06-2024 00:29:34.147 [main] INFO  listenerUtils.Listeners - login Test Case Passed
