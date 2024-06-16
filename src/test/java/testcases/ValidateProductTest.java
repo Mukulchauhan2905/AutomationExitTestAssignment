@@ -1,17 +1,18 @@
 package testcases;
+
+import org.testng.Assert;
 import pages.BasePage;
 import pages.HomePage;
 import pages.ProductPage;
 import pages.SearchPage;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class ValidateRatingsTest extends BasePage {
+public class ValidateProductTest extends BasePage {
 
     @Test
-    public void validateRatings() {
-        String product = testData.get(9)[4];
+    public void validateProduct() {
+        String product = testData.get(7)[4];
         extentTest.info("Searching for " + product);
         log.info("Searching for " + product);
         HomePage homePage = new HomePage(); 
@@ -23,9 +24,7 @@ public class ValidateRatingsTest extends BasePage {
         extentTest.info("Opening link in new Tab");
         log.info("Opening link in new Tab");
         ProductPage productPage = new ProductPage();
-        String rating = productPage.getRating();
-        extentTest.info("Rating  = "+ rating);
-        log.info("Rating  = "+ rating);
-        Assert.assertNotNull(rating);
+        String productTitle = productPage.getProductTitle().toLowerCase();
+        Assert.assertTrue(productTitle.contains(product.toLowerCase()));
     }
 }
