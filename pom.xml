@@ -8,15 +8,19 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <libs.dir>C:\Users\mukulchauhan\OneDrive - Nagarro\Desktop\Automation Fresher Training\ExitTestAssignment\libs</libs.dir>
    </properties>
    
    <dependencies>
 	   <!-- Exit Test Utilities Jar Made for commonly used funcionalities-->
 	  <dependency>
-            <groupId>com.nagarro</groupId>
-            <artifactId>exit-test-utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-      </dependency>
+		    <groupId>com.nagarro</groupId>
+		    <artifactId>exit-test-utils</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		    <scope>system</scope>
+		    <systemPath>${libs.dir}/exit-test-utils-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+
 
 	   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>

@@ -12,7 +12,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import pages.BasePage;
 import utils.Utils;
 
-public class TestStatusListener extends BasePage implements ITestListener{
+public class Listeners extends BasePage implements ITestListener{
 	
 	protected static Logger log = LogManager.getLogger();
 	

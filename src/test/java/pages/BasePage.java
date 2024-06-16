@@ -24,10 +24,10 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import fileReaderUtils.ExcelSheetReader;
 import fileReaderUtils.FileReader;
-import listenerUtils.TestStatusListener;
+import listenerUtils.Listeners;
 import webdriverUtils.WebDriverManager;
 
-@Listeners(TestStatusListener.class)
+@Listeners(Listeners.class)
 public class BasePage {
 	
 	public static WebDriver driver;
