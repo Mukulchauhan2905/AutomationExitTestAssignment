@@ -16,6 +16,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
+import listenerUtils.Listeners;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -26,8 +27,8 @@ import fileReaderUtils.ExcelSheetReader;
 import fileReaderUtils.FileReader;
 import webdriverUtils.WebDriverManager;
 
-//@Listeners(Listeners.class)
-@org.testng.annotations.Listeners(Listeners.class)
+@Listeners(Listeners.class)
+//@org.testng.annotations.Listeners(Listeners.class)
 public class BasePage {
 	
 	public static WebDriver driver;
