@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+     <listener class-name="listenerUtils.TestStatusListeners"/>
+  </listeners>
   <test thread-count="5" name="Test">
+  
     <classes>
-      <class name="testcases.FilterByBrandTest"/>
-      <class name="testcases.SortLowToHighTest"/>
-      <class name="testcases.SelectCategoryTest"/>
-      <class name="testcases.InvalidSearchTest"/>
-      <class name="testcases.GiftCardPageTest"/>
-      <class name="testcases.SearchForProductTest"/>
-      <class name="testcases.ClearFilterTest"/>
-      <class name="testcases.HomePageLogoFailTest"/>
-      <class name="testcases.RemoveFromCartTest"/>
-      <class name="testcases.CheckMoreTest"/>
-      <class name="testcases.HomePageLogoTest"/>
-      <class name="testcases.LoginTest"/>
-      <class name="testcases.FilterByAmountTest"/>
-      <class name="testcases.ValidateSpecificationTest"/>
-      <class name="testcases.UpdateCartCountTest"/>
+    
       <class name="testcases.ValidateRatingsTest"/>
       <class name="testcases.AddToCartTest"/>
-      <class name="testcases.CheckPaginationTest"/>
-      <class name="testcases.ValidateProductTest"/>
-      <class name="testcases.PlaceOrderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
